@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".PlayerActivity">
+
+    <TextView
+        android:id="@+id/player_song"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        tools:text="Song" />
+
+    <TextView
+        android:id="@+id/player_artist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        tools:text="Artist" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:padding="16dp"
+        android:progress="10" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <Button
+            style="@style/ButtonStyle"
+            android:background="@color/pause_button"
+            android:text="@string/pause_button"  />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:background="@color/play_button"
+            android:text="@string/play_button" />
+
+        <Button
+            style="@style/ButtonStyle"
+            android:background="@color/stop_button"
+            android:text="@string/stop_button"  />
+
+
+    </LinearLayout>
+
+</LinearLayout>

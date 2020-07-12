@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Primary color of the app -->
+    <color name="colorPrimary">#FFEA00</color>
+
+    <!--Primary dark color of the app -->
+    <color name="colorPrimaryDark">#FFD600</color>
+
+
+
+    <!-- Background color for the Dance hall category -->
+    <color name="category_dancehall">#64FFDA</color>
+
+    <!-- Background color for the Afro beat category -->
+    <color name="category_afrobeats">#1DE9B6</color>
+
+    <!-- Background color for the Zouk love category -->
+    <color name="category_zouklove">#00BFA5</color>
+
+    <!-- Background color for buttons -->
+    <color name="play_button">#64FFDA</color>
+    <color name="pause_button">#A7FFEB</color>
+    <color name="stop_button">#00BFA5</color>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/dancehall"
+        style="@style/CategoryStyle"
+        android:background="@color/category_dancehall"
+        android:text="@string/category_dancehall" />
+
+    <TextView
+        android:id="@+id/afrobeats"
+        style="@style/CategoryStyle"
+        android:background="@color/category_afrobeats"
+        android:text="@string/category_afrobeats"/>
+
+    <TextView
+        android:id="@+id/zouklove"
+        style="@style/CategoryStyle"
+        android:background="@color/category_zouklove"
+        android:text="@string/category_zouklove"/>
+
+</LinearLayout>

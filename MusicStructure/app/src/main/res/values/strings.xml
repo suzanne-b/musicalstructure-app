@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Music Structure</string>
+
+    <string name="category_dancehall">Dance hall</string>
+    <string name="category_afrobeats">Afro beats</string>
+    <string name="category_zouklove">Zouk love</string>
+    <string name="play_button">Play</string>
+    <string name="stop_button">Stop</string>
+    <string name="pause_button">Pause</string>
+</resources>
